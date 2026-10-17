@@ -1,0 +1,38 @@
+name: Feature
+description: A capability or outcome, often spanning several repositories. Lives in organization-roadmap.
+type: Feature
+projects: ["ByteLibrary/1"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The problem or goal, and why it matters now. This is the reason every related change exists.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: The outcome, and the repositories involved. Concrete work goes into sub-issues in those repositories.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: Observable conditions that make this done, as a checklist.
+      value: |
+        - [ ] All sub-issues are closed.
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Handbook documents, ADRs, related issues.

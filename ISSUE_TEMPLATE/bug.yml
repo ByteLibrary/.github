@@ -1,0 +1,36 @@
+name: Bug
+description: Something does not work as documented or expected.
+type: Bug
+projects: ["ByteLibrary/1"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What was expected
+      description: Link the documentation or behavior this contradicts, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      value: |
+        1.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what is affected, and how badly.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Versions, environment, logs (no secrets or personal data).
