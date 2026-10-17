@@ -34,4 +34,4 @@ body:
     id: references
     attributes:
       label: References
-      description: "Parent feature (e.g. ByteLibrary/organization-roadmap#1), handbook documents, ADRs."
+      description: "Parent feature (e.g. ByteLibrary/roadmap#1), handbook documents, ADRs."

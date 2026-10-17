@@ -1,5 +1,5 @@
 name: Feature
-description: A capability or outcome, often spanning several repositories. Lives in organization-roadmap.
+description: A capability or outcome, often spanning several repositories. Lives in roadmap.
 type: Feature
 projects: ["ByteLibrary/1"]
 body:
