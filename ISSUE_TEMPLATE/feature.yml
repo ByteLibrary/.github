@@ -1,5 +1,6 @@
 name: Feature
 description: A capability or outcome, often spanning several repositories. Lives in organization-roadmap.
+projects: ["ByteLibrary/1"]
 body:
   - type: textarea
     id: why

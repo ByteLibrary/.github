@@ -1,5 +1,6 @@
 name: Task
 description: A concrete change in this repository.
+projects: ["ByteLibrary/1"]
 body:
   - type: textarea
     id: why
