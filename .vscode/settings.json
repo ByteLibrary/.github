@@ -1,0 +1,4 @@
+{
+  // Formatting rules come from .editorconfig; no formatter runs on save.
+  "editor.formatOnSave": false
+}
