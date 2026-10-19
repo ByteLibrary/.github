@@ -8,7 +8,9 @@ permissions:
   contents: read
 
 jobs:
-  pull-request-standards:
-    uses: ByteLibrary/reusable-ci-workflows/.github/workflows/pull-request-standards.yml@main
-  documentation:
-    uses: ByteLibrary/reusable-ci-workflows/.github/workflows/documentation.yml@main
+  compliance:
+    name: Shared
+    uses: ByteLibrary/reusable-ci-workflows/.github/workflows/compliance.yml@main
+  lint:
+    name: Shared
+    uses: ByteLibrary/reusable-ci-workflows/.github/workflows/lint.yml@main
