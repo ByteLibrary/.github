@@ -1,6 +1,6 @@
 # .github
 
-Organization-wide defaults for every ByteLibrary repository that does not define its own:
+Defaults for every repository that does not define its own:
 
 | File | Purpose |
 |---|---|
@@ -9,4 +9,4 @@ Organization-wide defaults for every ByteLibrary repository that does not define
 | `profile/README.md` | Organization profile shown on github.com/ByteLibrary. |
 
 This repository is **public**, which GitHub requires for organization-wide defaults. It contains
-no sensitive information. How work is organized is described in the organization handbook.
+no sensitive information. How work is organized is described in the handbook.
